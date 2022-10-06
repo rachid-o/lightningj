@@ -317,6 +317,7 @@ import org.lightningj.lnd.wrapper.message.FeatureBit;
                 if(methodName == "sendPaymentV2" || methodName == "trackPaymentV2" || methodName == "sendToRouteV2"){
                     return "LightningApi"
                 }
+                break;
             case "dev":
                 if(methodName == "importGraph"){
                     return "DevOuterClass"
